@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="server=35.224.36.174;database=DefaultConnection;User ID=sqlserver;Password=saloc1993;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\scott\\source\\repos\\eventApi\\eventApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Calendar-Web.config Connection String" description="Calendar Connection String used in web.config by the application to access the database." defaultValue="server=35.224.36.174;database=Calendar;User ID=sqlserver;Password=saloc1993;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\scott\\source\\repos\\eventApi\\eventApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Calendar']/@connectionString" />
+  </parameter>
+</parameters>
