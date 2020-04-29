@@ -50,6 +50,24 @@ namespace CalendarApi.Controllers
             return invites;
         }
 
+        [Route("api/events/acceptappointment")]
+        [HttpPost]
+        public void acceptInvite(int id)
+        {
+            IBusinessInvite businessInvite = new BusinessInvite();
+            bool status = businessInvite.acceptInvite(id);
+            //return Json(status, JsonRequestBehavior.AllowGet);
+        }
+
+        [Route("api/events/denyappointment")]
+        [HttpPost]
+        public void denyInvite(int id)
+        {
+            IBusinessInvite businessInvite = new BusinessInvite();
+            bool status = businessInvite.denyInvite(id);
+            //return Json(status, JsonRequestBehavior.AllowGet);
+        }
+
         // POST: api/Events
         /*  public void Post([FromBody]string date, [FromBody]string location, [FromBody]string setBy, [FromBody]string title)
           {

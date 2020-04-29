@@ -283,6 +283,7 @@
     <Content Include="Scripts\jquery-3.5.0.min.js" />
     <Content Include="Scripts\jquery-3.5.0.slim.js" />
     <Content Include="Scripts\jquery-3.5.0.slim.min.js" />
+    <None Include="Properties\PublishProfiles\eventApiCalendar - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\EventCalendarApi - Web Deploy.pubxml" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
